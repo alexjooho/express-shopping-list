@@ -1,6 +1,6 @@
 "use strict";
 
-// const items = [];
+// const items = [];  the "items" in the fakeDb file doesn't update because it isn't same reference
 
 const express = require("express");
 const {items} = require("./fakeDb");
